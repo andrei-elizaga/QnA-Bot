@@ -17,7 +17,7 @@ from tqdm import tqdm, trange
 
 from pytorch_pretrained_bert.file_utils import PYTORCH_PRETRAINED_BERT_CACHE
 from modeling import BertForQuestionAnswering, BertConfig
-from pytorch_pretrained_bert.optimization import BertAdam, warmup_linear
+from pytorch_pretrained_bert.optimization import BertAdam
 from pytorch_pretrained_bert.tokenization import (BasicTokenizer,BertTokenizer,whitespace_tokenize)
 
 if sys.version_info[0] == 2:
